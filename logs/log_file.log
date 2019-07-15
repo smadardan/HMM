@@ -1,0 +1,27 @@
+2019-07-15 15:30:23,416: utils.utilities: INFO: ## Started ##
+2019-07-15 15:30:23,417: utils.utilities: INFO: observations and hidden layers parametersL {'pi': [0.5, 0.5], 'a': [[0.7, 0.3], [0.3, 0.7]], 'b': [[0.9, 0.1], [0.2, 0.8]], 'obs_names': ['Dirty', 'Clean'], 'hidden_names': ['Sunny', 'Rainy']}
+2019-07-15 15:30:23,417: utils.utilities: INFO: 
+0.
+2019-07-15 15:30:23,418: utils.utilities: INFO: Probabilities, backward forward
+[array([0.59272891, 0.40727109]), array([0.73182227, 0.26817773]), array([0.28795169, 0.71204831]), array([0.8325171, 0.1674829]), array([0.91596241, 0.08403759]), array([0.89165533, 0.10834467])]
+2019-07-15 15:30:23,418: utils.utilities: INFO: for observation: ['Dirty', 'Clean', 'Dirty', 'Dirty', 'Dirty']
+2019-07-15 15:30:23,418: utils.utilities: INFO: sampling hidden: ['Sunny', 'Sunny', 'Sunny', 'Sunny', 'Sunny']
+2019-07-15 15:30:23,418: utils.utilities: INFO: viterbi hidden: ['Sunny', 'Rainy', 'Sunny', 'Sunny', 'Sunny']
+2019-07-15 15:30:23,418: utils.utilities: INFO: backward-forward hidden: ['Sunny', 'Sunny', 'Rainy', 'Sunny', 'Sunny', 'Sunny']
+2019-07-15 15:30:23,419: utils.utilities: INFO: 
+1.
+2019-07-15 15:30:23,420: utils.utilities: INFO: Probabilities, backward forward
+[array([0.65867411, 0.34132589]), array([0.89668528, 0.10331472]), array([0.9357259, 0.0642741]), array([0.94112219, 0.05887781]), array([0.9357259, 0.0642741]), array([0.89668528, 0.10331472])]
+2019-07-15 15:30:23,420: utils.utilities: INFO: for observation: ['Dirty', 'Dirty', 'Dirty', 'Dirty', 'Dirty']
+2019-07-15 15:30:23,420: utils.utilities: INFO: sampling hidden: ['Sunny', 'Sunny', 'Sunny', 'Sunny', 'Rainy']
+2019-07-15 15:30:23,420: utils.utilities: INFO: viterbi hidden: ['Sunny', 'Sunny', 'Sunny', 'Sunny', 'Sunny']
+2019-07-15 15:30:23,420: utils.utilities: INFO: backward-forward hidden: ['Sunny', 'Sunny', 'Sunny', 'Sunny', 'Sunny', 'Sunny']
+2019-07-15 15:30:23,420: utils.utilities: INFO: 
+2.
+2019-07-15 15:30:23,421: utils.utilities: INFO: Probabilities, backward forward
+[array([0.64693556, 0.35306444]), array([0.86733889, 0.13266111]), array([0.82041905, 0.17958095]), array([0.30748358, 0.69251642]), array([0.82041905, 0.17958095]), array([0.86733889, 0.13266111])]
+2019-07-15 15:30:23,421: utils.utilities: INFO: for observation: ['Dirty', 'Dirty', 'Clean', 'Dirty', 'Dirty']
+2019-07-15 15:30:23,421: utils.utilities: INFO: sampling hidden: ['Rainy', 'Sunny', 'Rainy', 'Sunny', 'Sunny']
+2019-07-15 15:30:23,421: utils.utilities: INFO: viterbi hidden: ['Sunny', 'Sunny', 'Rainy', 'Sunny', 'Sunny']
+2019-07-15 15:30:23,422: utils.utilities: INFO: backward-forward hidden: ['Sunny', 'Sunny', 'Sunny', 'Rainy', 'Sunny', 'Sunny']
+2019-07-15 15:30:23,422: utils.utilities: INFO: ## Finished ##
